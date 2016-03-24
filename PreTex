@@ -1,3 +1,3 @@
-Basic Tex需要安装不少包：tex-gyre，symbol，footmisc，hypernat，varwidth，ulem，tabu，cases等，缺啥装啥。
+Basic Tex需要安装不少包：tlmgr install tex-gyre symbol footmisc hypernat varwidth ulem tabu cases braket everypage epstopdf paralist stmaryrd threeparttable titlesec nomencl zhnumber trimspaces environ multirow booktabs-de tocloft tocbibind ttfutils ctex等，缺啥装啥。
 Mac和Linux还需要安装字体：宋体，仿宋，黑体，楷体，幼圆等。不能安装GB2312版本的字体，有条件去Win7以上系统提取。
 Mac链接opentype到用户字体目录 ln -s “your texlive/mactex dir”/texmf-dist/fonts/opentype ～/Library/Fonts/opentype
